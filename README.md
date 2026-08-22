@@ -19,8 +19,9 @@ encourages buying.
 
 The implementation uses the finite-horizon half-spread
 
-$$\delta_t = \frac{\gamma\sigma^2(T-t)}{2}
-+ \frac{1}{\gamma}\log\left(1+\frac{\gamma}{k}\right).$$
+```math
+\delta_t = \frac{\gamma \sigma^2 (T-t)}{2} + \frac{1}{\gamma}\log\left(1+\frac{\gamma}{k}\right)
+```
 
 The execution probability is approximated over each small time interval using
 the exponential intensity $\lambda(\delta)=A e^{-k\delta}$.
