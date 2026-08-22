@@ -35,7 +35,7 @@ the exponential intensity $\lambda(\delta)=A e^{-k\delta}$.
 - Inventory and mark-to-market P&L through time
 
 ## Run locally
-
+Open [`avellaneda_stoikov_model.ipynb`](avellaneda_stoikov_model.ipynb) to view the complete implementation.
 ```bash
 git clone https://github.com/YOUR-USERNAME/avellaneda-stoikov-market-making.git
 cd avellaneda-stoikov-market-making
